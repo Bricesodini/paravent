@@ -1,0 +1,17 @@
+{
+  "pieges": [
+    "PIEGE-prenom-7f3a",
+    "PIEGE-nom-Élodie",
+    "piege.courriel@exemple.invalid",
+    "PIEGE-tel-06-00-00"
+  ],
+  "commandes": [
+    ["python3", "outil.py", "lister"],
+    ["python3", "outil.py", "chercher", "PIEGE-prenom-7f3a"],
+    ["python3", "outil.py", "chercher", "personne"],
+    ["python3", "outil.py", "planter"],
+    ["python3", "outil.py", "inconnue"],
+    ["python3", "outil.py", "chercher"]
+  ],
+  "surveiller": ["outil.log"]
+}

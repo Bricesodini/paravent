@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "types": {
+    "contact": {
+      "publics": ["rôle", "état"],
+      "personnels": ["prénom", "nom", "courriel"],
+      "secrets": ["jeton"],
+      "comptes": ["état"]
+    }
+  }
+}
